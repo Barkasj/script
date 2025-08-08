@@ -56,7 +56,9 @@ def get_email_pemulihan():
         if not emails:
             log_action("fatal", f"File '{FILE_EMAIL_PEMULIHAN}' kosong.")
             return None
-        return random.choice(emails)
+        chosen_email = random.choice(emails)
+        log_action("info", f"Email pemulihan dipilih: {chosen_email}")
+        return chosen_email
     except FileNotFoundError:
         log_action("fatal", f"File '{FILE_EMAIL_PEMULIHAN}' tidak ditemukan.")
         return None
