@@ -1,0 +1,5 @@
+# Dependensi baru
+playwright
+camoufox
+Faker
+browserforge
