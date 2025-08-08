@@ -1,0 +1,4 @@
+# Ganti dengan daftar email pemulihan Anda.
+# Setiap email harus berada di baris baru.
+# Contoh:
+popmie5577@gmail.com
